@@ -30,6 +30,8 @@ The package contains the following datasets:
 \item \link{UNlocations}: location dataset
 }
 }
+\note{The package \pkg{wppExplorer} offers a shiny user interface to explore these datasets as well as functions for convenient extraction of information from the data, see function \code{wpp.indicator} in \pkg{wppExplorer}, or \url{https://rstudio.stat.washington.edu/shiny/wppExplorer/inst/explore/}.
+}
 
 \source{
  These datasets are based on estimates and projections of United Nations, Department of Economic and Social Affairs, Population Division (2017). 
@@ -40,7 +42,7 @@ The package contains the following datasets:
 }
 
  \author{
-Population Division, Department of Economic and Social Affairs, United Nations 
+Hana Sevcikova and United Nations Population Division
 }
 
 \keyword{ package }
