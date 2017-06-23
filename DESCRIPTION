@@ -1,8 +1,8 @@
 Package: wpp2017
 Version: 1.0-0
-Date: 2017-6-22
+Date: 2017-6-23
 Title: World Population Prospects 2017
-Author: United Nations Population Division, Hana Sevcikova
+Author: Hana Sevcikova, United Nations Population Division 
 Maintainer: Hana Sevcikova <hanas@uw.edu>
 Depends: R (>= 2.14.2)
 Description: Provides data from the United Nation's World Population Prospects 2017.

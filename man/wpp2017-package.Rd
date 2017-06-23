@@ -7,13 +7,13 @@ World Population Prospects 2017
 }
 
 \description{
-Data from the United Nations World Population Prospects 2017.
+Data from the United Nations World Population Prospects 2017, released on June 21, 2017.
 }
 \details{
 \tabular{ll}{
 Package: \tab wpp2017\cr
 Version: \tab 1.0-0\cr
-Date: \tab 2017-6-22\cr
+Date: \tab 2017-6-23\cr
 URL: \tab \url{http://esa.un.org/wpp}\cr
 }
 

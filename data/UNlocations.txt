@@ -85,7 +85,7 @@
 "Japan"	392	906	"Eastern Asia"	935	"Asia"	4	-1	-1	-1	1503	-1	901	-1	-1	-1	-1	-1	-1
 "Mongolia"	496	906	"Eastern Asia"	935	"Asia"	4	-1	-1	1502	-1	1517	-1	902	-1	934	-1	-1	948
 "Republic of Korea"	410	906	"Eastern Asia"	935	"Asia"	4	-1	-1	-1	1503	-1	-1	902	-1	934	-1	-1	948
-"Other non-specified areas"	158	906	"Eastern Asia"	935	"Asia"	4	-1	-1	-1	1503	-1	-1	902	-1	934	-1	-1	-1
+"China, Taiwan Province of China"	158	906	"Eastern Asia"	935	"Asia"	4	-1	-1	-1	1503	-1	-1	902	-1	934	-1	-1	-1
 "South-Central Asia"	921	921	"South-Central Asia"	935	"Asia"	921	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
 "Central Asia"	5500	921	"South-Central Asia"	935	"Asia"	3	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
 "Kazakhstan"	398	5500	"Central Asia"	935	"Asia"	4	-1	-1	1502	-1	1517	-1	902	921	934	-1	-1	948
@@ -138,7 +138,7 @@
 "Eastern Europe"	923	923	"Eastern Europe"	908	"Europe"	3	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
 "Belarus"	112	923	"Eastern Europe"	908	"Europe"	4	-1	-1	1502	-1	1517	901	-1	-1	-1	-1	-1	-1
 "Bulgaria"	100	923	"Eastern Europe"	908	"Europe"	4	-1	-1	1502	-1	1517	901	-1	-1	-1	-1	-1	-1
-"Czech Republic"	203	923	"Eastern Europe"	908	"Europe"	4	-1	-1	-1	1503	-1	901	-1	-1	-1	-1	-1	-1
+"Czechia"	203	923	"Eastern Europe"	908	"Europe"	4	-1	-1	-1	1503	-1	901	-1	-1	-1	-1	-1	-1
 "Hungary"	348	923	"Eastern Europe"	908	"Europe"	4	-1	-1	-1	1503	-1	901	-1	-1	-1	-1	-1	-1
 "Poland"	616	923	"Eastern Europe"	908	"Europe"	4	-1	-1	-1	1503	-1	901	-1	-1	-1	-1	-1	-1
 "Republic of Moldova"	498	923	"Eastern Europe"	908	"Europe"	4	-1	1501	-1	-1	1517	901	-1	-1	-1	-1	-1	-1
