@@ -1,28 +1,34 @@
 \name{mx}
 \alias{mxM}
 \alias{mxF}
+\alias{lx}
+\alias{lxM}
+\alias{lxF}
 \docType{data}
 \title{
-Age-specific Mortality Data 
+Age-specific Mortality and Survivors Data 
 }
 \description{
-Age-specific data on mortality for male (\code{mxM}) and female (\code{mxF}).
+Age-specific data on mortality rates for male (\code{mxM}) and female (\code{mxF}). Life table survivors at exact age x for male (\code{lxM}) and female (\code{lxF}).
 }
 \usage{
 data(mxM)
 data(mxF)
+data(lxM)
+data(lxF)
 }
 \format{
-  Data frames with one row per country and age group. For each country there are 19 age groups (i.e., up to age 85+). It contains the following variables:
+  Data frames with one row per country and age group. 
+ They contain the following variables:
   \describe{
     \item{\code{country_code}}{Numerical Location Code (3-digit codes following ISO 3166-1 numeric standard) - see \url{http://en.wikipedia.org/wiki/ISO_3166-1_numeric}.}
     \item{\code{name}}{Country name.}
-    \item{\code{age}}{A character string representing an age interval (given by the starting age of the interval). For each country there are 19 values: \dQuote{0}, \dQuote{1}, \dQuote{5}, \dQuote{10}, \dQuote{15}, \dQuote{20}, \dQuote{25}, \dQuote{30}, \dQuote{35}, \dQuote{40}, \dQuote{45},  \dQuote{50}, \dQuote{55}, \dQuote{60}, \dQuote{65}, \dQuote{70}, \dQuote{75}, \dQuote{80}, and \dQuote{85} in that order.}
-    \item{\code{1950-1955}, \code{1955-1960}, \dots}{Mortality rate for the given five-year time period (i.e., from 1 July in year t to 1 July in year t+5 such as the period 1950-1955 refers to the period 1950.5-1955.5 and the mid of the period is 1953.0). Not available data are represented by an empty string.}
+    \item{\code{age}}{A character string representing an age interval (given by the starting age of the interval). The \code{mx} datasets contain age groups up to 85+; the \code{lx} datasets contain age groups up to 100+.}
+    \item{\code{1950-1955}, \code{1955-1960}, \dots}{mx or lx for the given five-year time period (i.e., from 1 July in year t to 1 July in year t+5 such as the period 1950-1955 refers to the period 1950.5-1955.5 and the mid of the period is 1953.0). Not available data are represented by an empty string.}
   }
 }
 \source{
- This dataset is based on estimates and projections of United Nations, Department of Economic and Social Affairs, Population Division (2017). 
+ These datasets are based on estimates and projections of United Nations, Department of Economic and Social Affairs, Population Division (2017). 
  }
  
  \references{
@@ -32,6 +38,8 @@ data(mxF)
 
 \examples{
 data(mxF)
-str(mxF)
+head(mxF)
+data(lxM)
+head(lxM)
 }
 \keyword{datasets}
