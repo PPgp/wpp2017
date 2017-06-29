@@ -1,21 +1,16 @@
 \name{mx}
 \alias{mxM}
 \alias{mxF}
-\alias{lx}
-\alias{lxM}
-\alias{lxF}
 \docType{data}
 \title{
-Age-specific Mortality and Survivors Data 
+Age-specific Mortality Data 
 }
 \description{
-Age-specific data on mortality rates for male (\code{mxM}) and female (\code{mxF}). Life table survivors at exact age x for male (\code{lxM}) and female (\code{lxF}).
+Age-specific data on mortality rates for male (\code{mxM}) and female (\code{mxF}).
 }
 \usage{
 data(mxM)
 data(mxF)
-data(lxM)
-data(lxF)
 }
 \format{
   Data frames with one row per country and age group. 
@@ -23,8 +18,8 @@ data(lxF)
   \describe{
     \item{\code{country_code}}{Numerical Location Code (3-digit codes following ISO 3166-1 numeric standard) - see \url{http://en.wikipedia.org/wiki/ISO_3166-1_numeric}.}
     \item{\code{name}}{Country name.}
-    \item{\code{age}}{A character string representing an age interval (given by the starting age of the interval). The \code{mx} datasets contain age groups up to 85+; the \code{lx} datasets contain age groups up to 100+.}
-    \item{\code{1950-1955}, \code{1955-1960}, \dots}{mx or lx for the given five-year time period (i.e., from 1 July in year t to 1 July in year t+5 such as the period 1950-1955 refers to the period 1950.5-1955.5 and the mid of the period is 1953.0). Not available data are represented by an empty string.}
+    \item{\code{age}}{A character string representing an age interval (given by the starting age of the interval). The \code{mx} datasets contain age groups up to 85+.}
+    \item{\code{1950-1955}, \code{1955-1960}, \dots}{mx for the given five-year time period (i.e., from 1 July in year t to 1 July in year t+5 such as the period 1950-1955 refers to the period 1950.5-1955.5 and the mid of the period is 1953.0). Not available data are represented by an empty string.}
   }
 }
 \source{
@@ -39,7 +34,5 @@ data(lxF)
 \examples{
 data(mxF)
 head(mxF)
-data(lxM)
-head(lxM)
 }
 \keyword{datasets}

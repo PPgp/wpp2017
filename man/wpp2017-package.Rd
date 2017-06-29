@@ -12,7 +12,7 @@ Data from the United Nations World Population Prospects 2017, released on June 2
 \details{
 \tabular{ll}{
 Package: \tab wpp2017\cr
-Version: \tab 1.0-0\cr
+Version: \tab 1.0-1\cr
 Date: \tab 2017-6-28\cr
 URL: \tab \url{http://esa.un.org/wpp}\cr
 }
@@ -24,7 +24,6 @@ The package contains the following datasets:
 \item \link{pop}, \link{popproj}, \link{popproj80u}, \link{popproj80l}, \link{popproj95u}, \link{popproj95l}, \link{popprojHigh}, \link{popprojLow}: historical estimates of total population counts, as well as the median, probability bounds and the high and low variants of population projections.
 \item \link{popF}, \link{popM}, \link[=popFprojMed]{popXprojMed}, \link[=popFprojHigh]{popXprojHigh}, \link[=popFprojLow]{popXprojLow}: age- and sex-specific  population estimates and projections with X=\dQuote{F} and \dQuote{M}, including the high and low variants.
 \item \link{mxF}, \link{mxM}: age- and sex-specific mortality rates
-\item \link{lxF}, \link{lxM}: age- and sex-specific life table survivors
 \item \link{migration}: total net migration 
 \item \link{sexRatio}: sex ratio at birth as a ratio of female to male
 \item \link{percentASFR}: distribution of age-specific fertility rates
