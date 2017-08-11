@@ -1,6 +1,8 @@
 \name{mx}
 \alias{mxM}
 \alias{mxF}
+\alias{mx}
+
 \docType{data}
 \title{
 Age-specific Mortality Data 
@@ -22,8 +24,8 @@ data(mxF)
     \item{\code{1950-1955}, \code{1955-1960}, \dots}{mx for the given five-year time period (i.e., from 1 July in year t to 1 July in year t+5 such as the period 1950-1955 refers to the period 1950.5-1955.5 and the mid of the period is 1953.0). Not available data are represented by an empty string.}
   }
 }
-\section{Important}{
-Please be aware that data for ages 85-100+ are not the official UN data! While the published UN mortality datasets contain data only up to 85+, data for ages 85-100+ in this dataset were derived from the UN published life table quantity on Ex.
+\note{
+Data for ages 85-100+ are not the official UN data. While the published UN mortality datasets contain data only up to 85+, data for ages 85-100+ in this dataset were derived from UN published life table quantities.
 }
 
 \source{
