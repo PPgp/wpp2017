@@ -1,10 +1,10 @@
 Package: wpp2017
-Version: 1.1-2
-Date: 2018-2-8
+Version: 1.2-0
+Date: 2018-3-16
 Title: World Population Prospects 2017
 Author: United Nations Population Division
 Maintainer: Hana Sevcikova <hanas@uw.edu>
-Depends: R (>= 2.14.2)
+Depends: R (>= 2.14.2), plyr
 Description: Provides data from the United Nation's World Population Prospects 2017.
 License: GPL (>= 2)
 URL: http://esa.un.org/wpp
