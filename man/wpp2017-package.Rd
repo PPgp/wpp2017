@@ -12,8 +12,8 @@ Data from the United Nations World Population Prospects 2017, released on June 2
 \details{
 \tabular{ll}{
 Package: \tab wpp2017\cr
-Version: \tab 1.2-2\cr
-Date: \tab 2020-2-6\cr
+Version: \tab 1.2-3\cr
+Date: \tab 2020-2-7\cr
 URL: \tab \url{http://population.un.org/wpp}\cr
 }
 
